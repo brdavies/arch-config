@@ -1,0 +1,112 @@
+# Copied from http://en.wikibooks.org/wiki/Using_Ratpoison/Example_Config
+
+# change directory to $HOME
+chdir
+
+# What's the shell?
+alias term exec terminator
+alias xterm exec terminator
+
+# Set the mouse warping option.
+warp on
+
+# Hush up, ratpoison. I know what the prefix key is.
+startup_message off
+
+# There are three different ways ratpoison can "name" frames. By title, name, or
+# class. Title gets you gunk like "emacs@localhost.localdomain"; but name and
+# class give you the sensible "emacs" or "Emacs".
+set winname class
+
+# Graphics tweaks
+# Not quite sure what these do, copied from Reactor Core.
+# Supposedly make borders take up less space.
+set border 0
+set padding 0 0 0 0
+set barpadding 0 0
+
+# What programs do we run on startup?
+# Do some key re-mapping
+#exec xmodmap -quiet ~/.Xmodmap
+
+# Change the background and pointer in X
+exec xsetroot -solid black -cursor_name left_ptr
+
+# I like astronomical images. Let us make use of xplanet.
+exec xplanet -config ~/.config/xplanet/xplanet.conf -body earth -latitude -27.4701 -longitude 153.0234
+
+# Run unclutter so the mouse hangs around no longer than needed.
+exec unclutter -idle 1 -jitter 2 -root
+
+# This should set up rpws and groups
+exec rpws -i
+exec rpws -b
+# This should be pretty obvious. Why not use function keys?
+bind F1 exec rpws 1
+bind F2 exec rpws 2
+bind F3 exec rpws 3
+bind F4 exec rpws 4
+bind F5 exec rpws 5
+bind F6 exec rpws 6
+bind F7 exec rpws 7
+bind F8 exec rpws 8
+bind F9 exec rpws 9
+bind F10 exec rpws 10
+bind F11 exec rpws 11
+bind F12 exec rpws 12
+
+# Aliasing keys within ratpoison
+# Make semicolon invoke ratpoison command, and colon shell command.
+bind semicolon colon
+bind colon exec
+
+# Shortcut for google chrome
+bind d exec chromium
+
+# Shortcut for emacs. Emacsclient is called, but it expects a filename. This can
+# be circumvented by instructing it to instead evaluate a Emacslisp expression-
+# the current one says "open up a new frame on the current display device". It
+# has to be quoted or else sh will try to open up the lisp expression in a
+# sub-shell as a shell command. Neatly, if an emacs isn't already running, then
+# emacsclient runs $EDITOR, which points back to regular emacs!
+bind M-e exec emacsclient --eval '(make-frame-command)'
+
+# Runs a shell script which creates an alt-tab menu analog
+bind w exec ~/.config/ratpoison/windows
+
+# Custom bindings
+bind bar hsplit
+bind underscore split
+bind o focus
+bind C-o focus
+bind p focuslast
+bind C-p focuslast
+# Emacs equivalent bindings for frame management.
+bind 0 remove
+bind 1 only
+bind space nextscreen
+bind C-space nextscreen
+
+bind C-0 select 0
+bind C-1 select 1
+bind C-2 select 2
+bind C-3 select 3
+bind C-4 select 4
+bind C-5 select 5
+bind C-6 select 6
+bind C-7 select 7
+bind C-8 select 8
+bind C-9 select 9
+
+bind c exec terminator
+
+bind C-t meta
+bind t other
+bind C-j other
+
+# layouts [ ] [|] [|= [-] [+]
+definekey top M-F1 exec ratpoison -c "echo Layout 1" -c "select -" -c "only" -c "next"
+definekey top M-F2 exec ratpoison -c "echo Layout 2" -c "select -" -c "only" -c "hsplit" -c "next"
+definekey top M-F3 exec ratpoison -c "echo Layout 3" -c "select -" -c "only" -c "hsplit" -c "next" -c "focusright" -c "next" -c "vsplit" -c "next"
+definekey top M-F4 exec ratpoison -c "echo Layout 4" -c "select -" -c "only" -c "vsplit" -c "next"
+definekey top M-F5 exec ratpoison -c "echo Layout 5" -c "select -" -c "only" -c "hsplit" -c next -c "vsplit" -c next -c "focusright" -c next -c "vsplit" -c "next"
