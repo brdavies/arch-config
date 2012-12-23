@@ -122,3 +122,9 @@ alias rcli='redis-cli -h thorium -a "`pass --redis thorium`"'
 
 # redis-cli connecting directory to host.
 alias rclih='redis-cli -a "`pass --redis`"'
+
+# Compress a directory.
+pack-dir() {
+    name=`basename $1`
+    tar -czvf ${name}.tgz $1
+}

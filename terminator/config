@@ -4,49 +4,43 @@
 [keybindings]
 [profiles]
   [[default]]
-    #palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    #foreground_color = "#eee8d5"
-    #background_color = "#002b36"
-    #cursor_color = "#eee8d5"
     scrollbar_position = hidden
     copy_on_selection = True
     scrollback_infinite = True
     allow_bold = False
     show_titlebar = False
-
   [[solarized-dark]]
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    foreground_color = "#eee8d5"
-    background_color = "#002b36"
-    cursor_color = "#eee8d5"
     scrollbar_position = hidden
-    copy_on_selection = True
-    scrollback_infinite = True
-    allow_bold = False
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    font = DejaVu Sans Mono 10
+    use_system_font = False
+    cursor_color = "#eee8d5"
+    foreground_color = "#eee8d5"
     show_titlebar = False
-
+    copy_on_selection = True
+    background_color = "#002b36"
+    allow_bold = False
+    scrollback_infinite = True
   [[solarized-light]]
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    background_color = "#eee8d5"
-    foreground_color = "#002b36"
-    cursor_color = "#002b36"
     scrollbar_position = hidden
-    copy_on_selection = True
-    scrollback_infinite = True
-    allow_bold = False
+    cursor_color = "#002b36"
+    foreground_color = "#002b36"
     show_titlebar = False
-
+    copy_on_selection = True
+    background_color = "#eee8d5"
+    allow_bold = False
+    scrollback_infinite = True
   [[zenburn]]
     palette = "#1e2320:#705050:#60b48a:#dfaf8f:#506070:#dc8cc3:#8cd0d3:#dcdccc:#709080:#dca3a3:#c3bf9f:#f0dfaf:#94bff3:#ec93d3:#93e0e3:#ffffff"
-    background_color = "#3a3a3a"
-    foreground_color = "#dcdccc"
-    cursor_color = "#002b36"
     scrollbar_position = hidden
-    copy_on_selection = True
-    scrollback_infinite = True
-    allow_bold = False
+    cursor_color = "#002b36"
+    foreground_color = "#dcdccc"
     show_titlebar = False
-
+    copy_on_selection = True
+    background_color = "#3a3a3a"
+    allow_bold = False
+    scrollback_infinite = True
 [layouts]
   [[default]]
     [[[child1]]]
