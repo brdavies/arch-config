@@ -53,3 +53,7 @@ chmod 600 ${cfg_dir}/.ssh/id_rsa.thorium
 mv -i ~/.fonts ${backup_dir}
 ln -s ${cfg_dir}/.fonts ~/.fonts
 fc-cache -v
+
+# vim
+mv -i ~/.vimrc ${backup_dir}
+ln -s ${cfg_dir}/vim/.vimrc ~/.vimrc

@@ -114,6 +114,10 @@ passx() {
     echo -e ${ret} | xclip -selection clipboard
 }
 
+copy() {
+    $@ | xclip -selection clipboard
+}
+
 alias dbq='dbqueryx -h thorium'
 alias dbqh='dbqueryx'
 
