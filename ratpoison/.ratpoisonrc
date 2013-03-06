@@ -63,6 +63,9 @@ bind colon exec
 # Shortcut for google chrome
 bind d exec chromium
 
+# Shortcut for emacs
+bind e exec emacs
+
 # Shortcut for emacs. Emacsclient is called, but it expects a filename. This can
 # be circumvented by instructing it to instead evaluate a Emacslisp expression-
 # the current one says "open up a new frame on the current display device". It
@@ -110,3 +113,6 @@ definekey top M-F2 exec ratpoison -c "echo Layout 2" -c "select -" -c "only" -c 
 definekey top M-F3 exec ratpoison -c "echo Layout 3" -c "select -" -c "only" -c "hsplit" -c "next" -c "focusright" -c "next" -c "vsplit" -c "next"
 definekey top M-F4 exec ratpoison -c "echo Layout 4" -c "select -" -c "only" -c "vsplit" -c "next"
 definekey top M-F5 exec ratpoison -c "echo Layout 5" -c "select -" -c "only" -c "hsplit" -c next -c "vsplit" -c next -c "focusright" -c next -c "vsplit" -c "next"
+
+# Make sure virtual box is running.
+exec VBoxClient-all

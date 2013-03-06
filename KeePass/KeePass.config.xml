@@ -37,9 +37,9 @@
 	<MainWindow>
 		<X>0</X>
 		<Y>0</Y>
-		<Width>1448</Width>
-		<Height>927</Height>
-		<SplitterHorizontalFrac>0.83093524</SplitterHorizontalFrac>
+		<Width>1444</Width>
+		<Height>862</Height>
+		<SplitterHorizontalFrac>0.8309493</SplitterHorizontalFrac>
 		<SplitterVerticalFrac>0.25</SplitterVerticalFrac>
 		<Layout>Default</Layout>
 		<ToolBar />

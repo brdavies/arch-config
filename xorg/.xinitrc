@@ -2,7 +2,7 @@
 export BROWSER=chromium
 export DE=openbox
 
-SESSION=openbox-session
+SESSION=ratpoison
 
 xmodmap ~/.config/xorg/.xmodmaprx
 
@@ -16,6 +16,7 @@ ratpoison)
 esac
 
 exec dbus-launch ${SESSION}
+
 #exec ck-launch-session dbus-launch ${SESSION}
 #exec ck-launch-session dbus-launch ratpoison
 #exec ck-launch-session dbus-launch wmii
