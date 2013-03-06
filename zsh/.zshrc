@@ -24,7 +24,7 @@ ZSH_THEME="bendavies"
 DISABLE_AUTO_TITLE="true"
 
 # Uncomment following line if you want red dots to be displayed while waiting for completion
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -32,6 +32,9 @@ DISABLE_AUTO_TITLE="true"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+
+# Don't share history between terminals.
+unsetopt share_history
 
 # Customize to your needs...
 TERM=screen-256color
