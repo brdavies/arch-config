@@ -33,6 +33,9 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+# Don't share history between terminals.
+unsetopt share_history
+
 # Customize to your needs...
 TERM=screen-256color
 
