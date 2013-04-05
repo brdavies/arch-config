@@ -80,7 +80,7 @@ export GREP_OPTIONS="--color=auto"
 export GREP_COLORS="ms=01;37:mc=01;37:sl=:cx=01;30:fn=35:ln=32:bn=32:se=36"
 
 # Start ssh-agent and add private key for the current machine.
-alias ssh-start='eval $(ssh-agent) && ssh-add ~/.ssh/$(id -un)@$(hostname)'
+alias ssh-start='eval $(ssh-agent) && ssh-add ~/.ssh/id_rsa && ssh-add ~/.ssh/ben.davies@alcolizer.com'
 
 alias sync-time='sudo ntpd -qg'
 
