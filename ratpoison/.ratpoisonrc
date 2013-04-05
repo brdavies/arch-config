@@ -30,10 +30,13 @@ set barpadding 0 0
 #exec xmodmap -quiet ~/.Xmodmap
 
 # Change the background and pointer in X
-exec xsetroot -solid black -cursor_name left_ptr
+#exec xsetroot -solid black -cursor_name left_ptr
 
 # I like astronomical images. Let us make use of xplanet.
-exec xplanet -config ~/.config/xplanet/xplanet.conf -body earth -latitude -27.4701 -longitude 153.0234
+#exec xplanet -config ~/.config/xplanet/xplanet.conf -body earth -latitude -27.4701 -longitude 153.0234
+
+# Show background.
+exec qiv --delay 60 -xtr ~/images/background/*
 
 # Run unclutter so the mouse hangs around no longer than needed.
 exec unclutter -idle 1 -jitter 2 -root
