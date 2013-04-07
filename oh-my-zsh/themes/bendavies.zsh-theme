@@ -10,10 +10,15 @@ local v_cd='%{$fg[green]%}%~%{$reset_color%}'
 # The current time --> [HH:MM:SS]
 local v_time='%{$fg[blue]%}%D{[%I:%M:%S]}%{$reset_color%}'
 
+# The current user and hostname, but only if connected via ssh.
+local v_user=''
+[[ -n $SSH_CLIENT ]] && v_user+='%{$fg[yellow]%}%n@%m'
+#local v_user='%{$fg[yellow]%}%n@%m'
+
 # Left and right prompts.
 PROMPT="${v_time} %# "
 #RPROMPT="${v_cd} ${v_git} ${v_ret}"
-RPROMPT="${v_cd} ${v_ret}"
+RPROMPT="${v_user} ${v_cd} ${v_ret}"
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[yellow]%}‹"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$fg[yellow]%}› %{$reset_color%}"
