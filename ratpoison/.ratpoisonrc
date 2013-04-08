@@ -33,10 +33,10 @@ set barpadding 0 0
 exec xsetroot -solid black -cursor_name left_ptr
 
 # I like astronomical images. Let us make use of xplanet.
-exec xplanet -config ~/.config/xplanet/xplanet.conf -body earth -latitude -27.4701 -longitude 153.0234
+#exec xplanet -config ~/.config/xplanet/xplanet.conf -body earth -latitude -27.4701 -longitude 153.0234
 
 # Run unclutter so the mouse hangs around no longer than needed.
-exec unclutter -idle 1 -jitter 2 -root
+#exec unclutter -idle 1 -jitter 2 -root
 
 # This should set up rpws and groups
 exec rpws -i
@@ -113,6 +113,3 @@ definekey top M-F2 exec ratpoison -c "echo Layout 2" -c "select -" -c "only" -c 
 definekey top M-F3 exec ratpoison -c "echo Layout 3" -c "select -" -c "only" -c "hsplit" -c "next" -c "focusright" -c "next" -c "vsplit" -c "next"
 definekey top M-F4 exec ratpoison -c "echo Layout 4" -c "select -" -c "only" -c "vsplit" -c "next"
 definekey top M-F5 exec ratpoison -c "echo Layout 5" -c "select -" -c "only" -c "hsplit" -c next -c "vsplit" -c next -c "focusright" -c next -c "vsplit" -c "next"
-
-# Make sure virtual box is running.
-exec VBoxClient-all
