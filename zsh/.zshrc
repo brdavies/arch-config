@@ -136,3 +136,6 @@ pack-dir() {
     name=`basename $1`
     tar -czvf ${name}.tgz $1
 }
+
+# Set default browser
+BROWSER=chromium
