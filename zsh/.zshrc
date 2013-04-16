@@ -122,6 +122,11 @@ copy() {
     $@ | xclip -selection clipboard
 }
 
+# Copy the first 8 characters of the git HEAD to the clipboard.
+git-head() {
+    git rev-parse HEAD | head -c 8 | xclip -selection clipboard
+}
+
 alias dbq='dbqueryx -h thorium'
 alias dbqh='dbqueryx'
 
