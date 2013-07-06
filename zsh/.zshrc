@@ -122,6 +122,16 @@ copy() {
     $@ | xclip -selection clipboard
 }
 
+reset-network() {
+    echo "eth0 down..."
+    sudo ip link set dev eth0 down
+    echo "eth0 up..."
+    sudo ip link set dev eth0 up
+    echo "renew ip..."
+    sudo systemctl restart dhcpcd@eth0.service
+    ping -c 3 8.8.8.8
+}
+
 alias dbq='dbqueryx -h thorium'
 alias dbqh='dbqueryx'
 
@@ -136,3 +146,11 @@ pack-dir() {
     name=`basename $1`
     tar -czvf ${name}.tgz $1
 }
+
+# Default golang workspace.
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
+
+# Use rsync to move and copy
+alias rscp='rsync -aP'
+alias rsmv='rsync -aP --remove-source-files'

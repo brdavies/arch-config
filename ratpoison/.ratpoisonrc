@@ -61,7 +61,8 @@ bind semicolon colon
 bind colon exec
 
 # Shortcut for google chrome
-bind d exec chromium
+bind d exec google-chrome
+
 
 # Shortcut for emacs
 bind e exec emacs
