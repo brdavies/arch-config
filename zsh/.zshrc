@@ -118,6 +118,15 @@ passx() {
     echo -e ${ret} | xclip -selection clipboard
 }
 
+# Look up a password challenge and write the first 8 characters of the result to
+# stdout and to the clipboard.
+passx8() {
+    ret=`pass $@`
+    code=`echo ${ret} | head -c 8`
+    echo ${code}
+    echo -e ${code} | xclip -selection clipboard
+}
+
 copy() {
     $@ | xclip -selection clipboard
 }
@@ -136,11 +145,18 @@ alias rcli='redis-cli -h thorium -a "`pass --redis thorium`"'
 # redis-cli connecting directory to host.
 alias rclih='redis-cli -a "`pass --redis`"'
 
+# Octal dump with sane defaults
+alias odump='od -Ax -tx1'
+
 # Compress a directory.
 pack-dir() {
     name=`basename $1`
     tar -czvf ${name}.tgz $1
 }
 
-# Set default browser
+# Set default browser.
 BROWSER=chromium
+
+# Default golang workspace.
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
