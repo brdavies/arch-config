@@ -86,7 +86,7 @@ alias sync-time='sudo ntpd -qg'
 
 # Actinium project related stuff.
 alias ac-host='pushd ~/ac/fs/tmp-host/rootfs/ac'
-PATH=$PATH:~/ac/fs/tmp-host/rootfs/ac
+PATH=/usr/local/bin:$PATH:~/ac/fs/tmp-host/rootfs/ac
 
 # This function is a wrapper around dbquery that prints key names to a temporary
 # file. Any arguments supplied to this function are passed directly to dbquery.
