@@ -60,9 +60,9 @@ bind F12 exec rpws 12
 bind semicolon colon
 bind colon exec
 
-# Shortcut for google chrome
+# Shortcut for google chrome and firefox
 bind d exec google-chrome
-
+bind f exec firefox
 
 # Shortcut for emacs
 bind e exec emacs
