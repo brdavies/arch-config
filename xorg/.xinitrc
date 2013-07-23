@@ -13,6 +13,9 @@ openbox)
 ratpoison)
 	SESSION=ratpoison
 	;;
+kde)
+	SESSION=startkde
+	;;
 esac
 
 exec dbus-launch ${SESSION}
