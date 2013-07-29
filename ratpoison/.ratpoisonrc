@@ -111,6 +111,9 @@ bind C-t meta
 bind t other
 bind C-j other
 
+# Aliasa
+alias reload exec ratpoison -c "source $HOME/.ratpoisonrc"
+
 # layouts [ ] [|] [|= [-] [+]
 definekey top M-F1 exec ratpoison -c "echo Layout 1" -c "select -" -c "only" -c "next"
 definekey top M-F2 exec ratpoison -c "echo Layout 2" -c "select -" -c "only" -c "hsplit" -c "next"
