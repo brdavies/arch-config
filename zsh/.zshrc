@@ -131,7 +131,6 @@ copy() {
     $@ | xclip -selection clipboard
 }
 
-<<<<<<< HEAD
 # Copy the first 8 characters of the git HEAD to the clipboard.
 git-head() {
     git rev-parse HEAD | head -c 8 | xclip -selection clipboard
