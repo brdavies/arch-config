@@ -131,9 +131,20 @@ copy() {
     $@ | xclip -selection clipboard
 }
 
+<<<<<<< HEAD
 # Copy the first 8 characters of the git HEAD to the clipboard.
 git-head() {
     git rev-parse HEAD | head -c 8 | xclip -selection clipboard
+}
+
+reset-network() {
+    echo "eth0 down..."
+    sudo ip link set dev eth0 down
+    echo "eth0 up..."
+    sudo ip link set dev eth0 up
+    echo "renew ip..."
+    sudo systemctl restart dhcpcd@eth0.service
+    ping -c 3 8.8.8.8
 }
 
 alias dbq='dbqueryx -h thorium'
@@ -160,3 +171,7 @@ BROWSER=chromium
 # Default golang workspace.
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
+
+# Use rsync to move and copy
+alias rscp='rsync -aP'
+alias rsmv='rsync -aP --remove-source-files'
