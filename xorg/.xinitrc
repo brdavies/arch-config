@@ -13,7 +13,7 @@ openbox)
 ratpoison)
 	SESSION=ratpoison
 	;;
-kde)
+kde|*)
 	SESSION=startkde
 	;;
 esac

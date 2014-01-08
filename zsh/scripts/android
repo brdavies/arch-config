@@ -1,0 +1,33 @@
+
+
+function android_start() {
+    echo "Android connect..."
+    mkdir -v -p "/home/ben/android/.mnt"
+    go-mtpfs -usb-timeout=5000 "/home/ben/android/.mnt" > /dev/null &
+    ln -s "/home/ben/android/.mnt/Internal storage" "/home/ben/android/data"
+    ln -s "/home/ben/android/.mnt/Internal storage/Music" "/home/ben/android/music"
+    ln -s "/home/ben/android/.mnt/Internal storage/DCIM/Camera" "/home/ben/android/photos"
+}
+
+function android_stop() {
+    echo "Android disconnect..."
+    fusermount -u "/home/ben/android/.mnt"
+    rmdir "/home/ben/android/.mnt"
+    rm "/home/ben/android/data"
+    rm "/home/ben/android/music"
+    rm "/home/ben/android/photos"
+    rmdir "/home/ben/android"
+}
+
+case $1 in
+    start|connect|mount)
+        android_start
+        ;;
+    stop|disconnect|umount)
+        android_stop
+        ;;
+    *)
+        filename=$(basename "$0")
+        echo "$filename connect|disconnect"
+        ;;
+esac
