@@ -26,7 +26,8 @@
         ignored = ls-files --others -i --exclude-standard
 
 [diff]
-        tool = ediff
+        tool = meld
+#        tool = ediff
         guitool = ediff
 
 [difftool "ediff"]

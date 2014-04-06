@@ -1,27 +1,24 @@
 #!/bin/bash
 
 # test args
-if [ ! ${#} -ge 2 ]; then
-    echo 1>&2 "Usage: ${0} LOCAL REMOTE [MERGED BASE]"
+if [ ! ${#} -ge 3 ]; then
+    echo 1>&2 "Usage: ${0} LOCAL REMOTE MERGED BASE"
     echo 1>&2 "       (LOCAL, REMOTE, MERGED, BASE can be provided by \`git mergetool'.)"
     exit 1
 fi
 
 # tools
-_EMACSCLIENT=/usr/bin/emacsclient
-_BASENAME=/usr/bin/basename
+#_EMACSCLIENT=/usr/local/bin/emacsclient
+_EMACSCLIENT=emacsclient
+_BASENAME=/bin/basename
 _CP=/bin/cp
-_EGREP=/usr/bin/egrep
-_MKTEMP=/usr/bin/mktemp
+_EGREP=/bin/egrep
+_MKTEMP=/bin/mktemp
 
 # args
 _LOCAL=${1}
 _REMOTE=${2}
-if [ ${3} ] ; then
-    _MERGED=${3}
-else
-    _MERGED=${_REMOTE}
-fi
+_MERGED=${3}
 if [ ${4} -a -r ${4} ] ; then
     _BASE=${4}
     _EDIFF=ediff-merge-files-with-ancestor
@@ -43,8 +40,7 @@ else
 fi
 
 # run emacsclient
-#${_EMACSCLIENT} ${_EMACSCLIENTOPTS} -a "" --eval "(${_EVAL})" 2>&1
-emacs --eval "(${_EVAL})" 2>&1
+${_EMACSCLIENT} ${_EMACSCLIENTOPTS} -a "" -e "(${_EVAL})" 2>&1
 
 # check modified file
 if [ ! $(egrep -c '^(<<<<<<<|=======|>>>>>>>|####### Ancestor)' ${_MERGED}) = 0 ]; then

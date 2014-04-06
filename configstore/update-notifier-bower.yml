@@ -1,0 +1,8 @@
+optOut: false
+lastUpdateCheck: 1378277734772
+update: 
+  latest: 1.2.6
+  current: 1.2.4
+  type: patch
+  date: "2013-09-04T01:44:14.517Z"
+  name: bower

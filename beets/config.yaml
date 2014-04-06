@@ -1,0 +1,5 @@
+directory: /mnt/music
+library: ~/.music.blb
+import:
+        copy: no
+plugins: web bpd

@@ -1,6 +1,6 @@
 #!/bin/bash
 export BROWSER=chromium
-export DE=openbox
+#export DE=openbox
 
 SESSION=ratpoison
 

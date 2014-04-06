@@ -155,6 +155,11 @@ alias rcli='redis-cli -h thorium -a "`pass --redis thorium`"'
 # redis-cli connecting directory to host.
 alias rclih='redis-cli -a "`pass --redis`"'
 
+# redis-cli connecting directory to thorium hardware.
+alias rcli-target='redis-cli -h $ip -a "`pass --redis $ip`"'
+alias da-target='da -h $ip'
+alias dbq-target='dbqueryx -h $ip'
+
 # Octal dump with sane defaults
 alias odump='od -Ax -tx1'
 
@@ -162,6 +167,11 @@ alias odump='od -Ax -tx1'
 pack-dir() {
     name=`basename $1`
     tar -czvf ${name}.tgz $1
+}
+
+# Copy the target of a symbolic link over the top of the link.
+make-real() {
+    [ -L "$1" ] && cp --remove-destination `readlink "$1"` "$1"
 }
 
 # Set default browser.
