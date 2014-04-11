@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1440.900" x="719" y="248" />
+    <location key="FileChooserDialogImpl.0.0.1440.900" x="499" y="138" />
+    <size key="FileChooserDialogImpl.0.0.1440.900" width="428" height="482" />
+  </component>
+  <component name="LafManager">
+    <laf class-name="com.incors.plaf.alloy.AlloyIdea" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Non-Project Files" value="Yellow" />
+    <property name="DefaultHtmlDoctype.MigrateToHtml5" value="true" />
+    <property name="installation.uid" value="e6906211-cc41-4158-a905-0c0cd862d683" />
+    <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
+    <property name="WebStorm.initialConfigurationShown" value="true" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/ac/fs/apps/cf" />
+    <property name="WebStorm.InitialConfiguration" value="true" />
+    <property name="evlsprt3.6" value="12" />
+    <property name="file.colors.enable.non.project" value="Yellow" />
+  </component>
+</application>
+

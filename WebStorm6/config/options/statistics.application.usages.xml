@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="module type">
+      <project id="cf" values="WEB_MODULE" />
+    </group>
+    <group name="file-type">
+      <project id="cf" values="XML,JSON,Images,UNKNOWN,PLAIN_TEXT,Jade,JavaScript,CSS,C++,LESS" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="cf" values="Project,Project" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="cf" values="DEFAULT" />
+    </group>
+  </component>
+</application>
+

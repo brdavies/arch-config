@@ -1,0 +1,593 @@
+2013-05-31 12:17:06,856 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2013-05-31 12:17:06,869 [     13]   INFO -        #com.intellij.idea.Main - IDE: JetBrains WebStorm (build #WS-127.122, 29 Mar 2013 00:00) 
+2013-05-31 12:17:06,869 [     13]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_21-b02 (Oracle Corporation) 
+2013-05-31 12:17:06,869 [     13]   INFO -        #com.intellij.idea.Main - JVM: 23.7-b01 (Oracle Corporation) 
+2013-05-31 12:17:06,909 [     53]   INFO -        #com.intellij.idea.Main - JNA library loaded (32-bit) in 39 ms 
+2013-05-31 12:17:06,943 [     87]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 34 ms 
+2013-05-31 12:17:17,832 [  10976]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2013-05-31 12:17:19,358 [  12502]   INFO - llij.ide.plugins.PluginManager - 36 plugins initialized in 1328 ms 
+2013-05-31 12:17:19,358 [  12502]   INFO - llij.ide.plugins.PluginManager - Loaded plugins:IDEA CORE, File Watchers (127.122), CSS Support, JavaScript Support (1.0), Git Integration (8.1), Task Management (1.0), GitHub, Refactor-X (2.01), XPathView + XSLT Support (4), IntelliLang (8.0), YAML, HAML, Perforce Integration (2.0), Remote Hosts Access (0.1), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), Inspection-JS (2.0), NodeJS (127.122), CoffeeScript (2.0), Dart (127.122), JSTestDriver Plugin (127.122), hg4idea (10.0), XSLT-Debugger (1.4), TextMate bundles support (1.0), REST Client, Java Server Pages Integration (1.0), QuirksMode, LESS support, SASS support, LiveEdit (999.0), Jade (127.122), CVS Integration (11), Subversion Integration (1.1), HTML Tools (2.0), ASP (0.1), W3C Validators (2.0) 
+2013-05-31 12:17:20,111 [  13255]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted 
+2013-05-31 12:17:20,120 [  13264]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=456261632 
+2013-05-31 12:17:20,200 [  13344]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/ben/downloads/WebStorm-127.122/bin/fsnotifier 
+2013-05-31 12:17:20,216 [  13360]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2013-05-31 12:17:20,290 [  13434]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/other.xml file is null 
+2013-05-31 12:17:20,306 [  13450]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/project.default.xml file is null 
+2013-05-31 12:17:20,457 [  13601]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/filetypes.xml file is null 
+2013-05-31 12:17:20,717 [  13861]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 5), rebuilding... 
+2013-05-31 12:17:20,717 [  13861]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2013-05-31 12:17:20,755 [  13899]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2013-05-31 12:17:20,758 [  13902]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2013-05-31 12:17:20,760 [  13904]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/options.xml file is null 
+2013-05-31 12:17:20,852 [  13996]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2013-05-31 12:17:20,860 [  14004]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/usage.statistics.xml file is null 
+2013-05-31 12:17:20,862 [  14006]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/statistics.application.usages.xml file is null 
+2013-05-31 12:17:20,954 [  14098]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/keymap.xml file is null 
+2013-05-31 12:17:21,187 [  14331]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/window.manager.xml file is null 
+2013-05-31 12:17:21,223 [  14367]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ide.general.xml file is null 
+2013-05-31 12:17:21,246 [  14390]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.xml file is null 
+2013-05-31 12:17:21,251 [  14395]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2013-05-31 12:17:21,264 [  14408]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2013-05-31 12:17:21,740 [  14884]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/stubIndex.xml file is null 
+2013-05-31 12:17:21,839 [  14983]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /home/ben/downloads/WebStorm-127.122/lib/webstorm.jar!/resources/html5-schema/html5.rnc 
+2013-05-31 12:17:21,840 [  14984]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /home/ben/downloads/WebStorm-127.122/lib/webstorm.jar!/resources/html5-schema/xhtml5.rnc 
+2013-05-31 12:17:22,218 [  15362]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/colors.scheme.xml file is null 
+2013-05-31 12:17:22,223 [  15367]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/editor.codeinsight.xml file is null 
+2013-05-31 12:17:22,267 [  15411]   INFO - ellij.project.impl.ProjectImpl - 18 project components initialized in 404 ms 
+2013-05-31 12:17:22,268 [  15412]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2013-05-31 12:17:22,446 [  15590]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/textmate.xml file is null 
+2013-05-31 12:17:22,448 [  15592]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 2785 ms 
+2013-05-31 12:17:22,450 [  15594]   INFO - .intellij.idea.IdeaApplication - App initialization took 23792 ms 
+2013-05-31 12:17:44,041 [  37185]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/code.style.schemes.xml file is null 
+2013-05-31 12:17:47,658 [  40802]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plugin_ui.xml file is null 
+2013-05-31 12:17:50,877 [  44021]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2013-05-31 12:17:50,881 [  44025]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2013-05-31 12:17:50,884 [  44028]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated. 
+2013-05-31 12:17:50,907 [  44051]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2013-05-31 12:17:50,907 [  44051]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2013-05-31 12:17:50,907 [  44051]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2013-05-31 12:17:50,908 [  44052]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2013-05-31 12:17:50,910 [  44054]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2013-05-31 12:17:50,910 [  44054]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2013-05-31 12:17:50,911 [  44055]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2013-05-31 18:26:53,199 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2013-05-31 18:26:53,217 [     18]   INFO -        #com.intellij.idea.Main - IDE: JetBrains WebStorm (build #WS-127.122, 29 Mar 2013 00:00) 
+2013-05-31 18:26:53,217 [     18]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_21-b11 (Oracle Corporation) 
+2013-05-31 18:26:53,218 [     19]   INFO -        #com.intellij.idea.Main - JVM: 23.21-b01 (Oracle Corporation) 
+2013-05-31 18:26:53,341 [    142]   INFO -        #com.intellij.idea.Main - JNA library loaded (32-bit) in 122 ms 
+2013-05-31 18:26:53,608 [    409]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.5) in 267 ms 
+2013-05-31 18:26:53,768 [    569]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2013-05-31 18:26:55,931 [   2732]   INFO - llij.ide.plugins.PluginManager - 36 plugins initialized in 1801 ms 
+2013-05-31 18:26:55,931 [   2732]   INFO - llij.ide.plugins.PluginManager - Loaded plugins:IDEA CORE, File Watchers (127.122), CSS Support, JavaScript Support (1.0), Git Integration (8.1), Task Management (1.0), GitHub, Refactor-X (2.01), XPathView + XSLT Support (4), IntelliLang (8.0), YAML, HAML, Perforce Integration (2.0), Inspection-JS (2.0), Remote Hosts Access (0.1), JavaScript Debugger (1.0), NodeJS (127.122), JavaScript Intention Power Pack (0.9.4), CoffeeScript (2.0), Dart (127.122), JSTestDriver Plugin (127.122), hg4idea (10.0), XSLT-Debugger (1.4), TextMate bundles support (1.0), REST Client, Java Server Pages Integration (1.0), QuirksMode, LESS support, SASS support, LiveEdit (999.0), Jade (127.122), CVS Integration (11), Subversion Integration (1.1), HTML Tools (2.0), ASP (0.1), W3C Validators (2.0) 
+2013-05-31 18:26:57,193 [   3994]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=456261632 
+2013-05-31 18:26:57,296 [   4097]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /home/ben/downloads/WebStorm-127.122/bin/fsnotifier 
+2013-05-31 18:26:57,333 [   4134]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2013-05-31 18:26:57,439 [   4240]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2013-05-31 18:26:58,208 [   5009]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2013-05-31 18:26:58,363 [   5164]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2013-05-31 18:26:58,377 [   5178]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/statistics.application.usages.xml file is null 
+2013-05-31 18:26:58,949 [   5750]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2013-05-31 18:26:58,963 [   5764]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2013-05-31 18:27:00,616 [   7417]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 4367 ms 
+2013-05-31 18:27:00,622 [   7423]   INFO - .intellij.idea.IdeaApplication - App initialization took 9104 ms 
+2013-05-31 18:27:03,931 [  10732]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plugin_ui.xml file is null 
+2013-05-31 18:27:10,343 [  17144]   INFO - ellij.project.impl.ProjectImpl - 18 project components initialized in 382 ms 
+2013-05-31 18:27:10,343 [  17144]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2013-05-31 18:27:10,546 [  17347]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/code.style.schemes.xml file is null 
+2013-05-31 18:27:10,679 [  17480]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2013-05-31 18:27:10,708 [  17509]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2013-05-31 18:27:10,708 [  17509]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2013-05-31 18:27:10,708 [  17509]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2013-05-31 18:27:10,709 [  17510]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2013-05-31 18:27:10,711 [  17512]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2013-05-31 18:27:10,755 [  17556]   WARN - ution.process.OSProcessHandler - Cannot kill process tree. Trying to destroy process using Java API. Cmdline:
+null 
+2013-05-31 18:27:10,755 [  17556]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2013-05-31 18:27:10,768 [  17569]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2013-05-31 18:27:10,771 [  17572]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated. 
+2013-05-31 18:27:10,776 [  17577]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2013-07-10 21:28:17,619 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2013-07-10 21:28:17,631 [     12]   INFO -        #com.intellij.idea.Main - IDE: JetBrains WebStorm (build #WS-129.664, 05 Jun 2013 00:00) 
+2013-07-10 21:28:17,631 [     12]   INFO -        #com.intellij.idea.Main - OS: Linux (3.9.9-1-arch) 
+2013-07-10 21:28:17,631 [     12]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_21-b11 (Oracle Corporation) 
+2013-07-10 21:28:17,632 [     13]   INFO -        #com.intellij.idea.Main - JVM: 23.21-b01 (Oracle Corporation) 
+2013-07-10 21:28:17,640 [     21]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx512m -XX:MaxPermSize=250m -XX:ReservedCodeCacheSize=64m -XX:+UseCodeCacheFlushing -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djb.vmOptionsFile=/opt/webstorm/bin/webstorm.vmoptions -Xbootclasspath/a:/opt/webstorm/bin/../lib/boot.jar -Didea.paths.selector=WebStorm6 -Didea.platform.prefix=WebStorm -Didea.no.jre.check=true -Djb.restart.code=88 
+2013-07-10 21:28:17,684 [     65]   INFO -        #com.intellij.idea.Main - JNA library loaded (32-bit) in 44 ms 
+2013-07-10 21:28:17,720 [    101]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.4) in 35 ms 
+2013-07-10 21:30:01,133 [ 103514]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2013-07-10 22:33:26,924 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2013-07-10 22:33:26,942 [     18]   INFO -        #com.intellij.idea.Main - IDE: JetBrains WebStorm (build #WS-129.664, 05 Jun 2013 00:00) 
+2013-07-10 22:33:26,943 [     19]   INFO -        #com.intellij.idea.Main - OS: Linux (3.9.9-1-arch) 
+2013-07-10 22:33:26,943 [     19]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_21-b11 (Oracle Corporation) 
+2013-07-10 22:33:26,943 [     19]   INFO -        #com.intellij.idea.Main - JVM: 23.21-b01 (Oracle Corporation) 
+2013-07-10 22:33:26,956 [     32]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx512m -XX:MaxPermSize=250m -XX:ReservedCodeCacheSize=64m -XX:+UseCodeCacheFlushing -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djb.vmOptionsFile=/opt/webstorm/bin/webstorm.vmoptions -Xbootclasspath/a:/opt/webstorm/bin/../lib/boot.jar -Didea.paths.selector=WebStorm6 -Didea.platform.prefix=WebStorm -Didea.no.jre.check=true -Djb.restart.code=88 
+2013-07-10 22:33:27,014 [     90]   INFO -        #com.intellij.idea.Main - JNA library loaded (32-bit) in 58 ms 
+2013-07-10 22:33:27,361 [    437]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.4) in 347 ms 
+2013-07-10 22:34:55,836 [  88912]   INFO - .intellij.idea.IdeaApplication - WM detected: KWin 
+2013-07-10 22:34:57,967 [  91043]   INFO - llij.ide.plugins.PluginManager - 35 plugins initialized in 1876 ms 
+2013-07-10 22:34:57,968 [  91044]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (0.1), CSS Support, CVS Integration (11), CoffeeScript (2.0), Dart (129.664), File Watchers (129.664), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, Inspection-JS (2.0), IntelliLang (8.0), JSTestDriver Plugin (129.664), Jade (129.664), Java Server Pages Integration (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, LiveEdit (0.4.129.2), NodeJS (129.664), Perforce Integration (2.0), QuirksMode, REST Client, Refactor-X (2.01), Remote Hosts Access (0.1), SASS support, Subversion Integration (1.1), Task Management (1.0), W3C Validators (2.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML, hg4idea (10.0) 
+2013-07-10 22:34:59,549 [  92625]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=456261632 
+2013-07-10 22:34:59,669 [  92745]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /opt/webstorm/bin/fsnotifier 
+2013-07-10 22:34:59,706 [  92782]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2013-07-10 22:34:59,860 [  92936]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2013-07-10 22:35:00,686 [  93762]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2013-07-10 22:35:00,793 [  93869]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2013-07-10 22:35:00,818 [  93894]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/statistics.application.usages.xml file is null 
+2013-07-10 22:35:01,628 [  94704]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2013-07-10 22:35:01,642 [  94718]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2013-07-10 22:35:02,061 [  95137]   INFO - il.indexing.FileBasedIndexImpl - Version has changed for index filetypes. The index will be rebuilt. 
+2013-07-10 22:35:02,347 [  95423]   INFO - il.indexing.FileBasedIndexImpl - Version has changed for index Stubs. The index will be rebuilt. 
+2013-07-10 22:35:02,719 [  95795]   INFO - il.indexing.FileBasedIndexImpl - Version has changed for index js.symbol.index. The index will be rebuilt. 
+2013-07-10 22:35:02,734 [  95810]   INFO - il.indexing.FileBasedIndexImpl - Version has changed for index js.subclass.index. The index will be rebuilt. 
+2013-07-10 22:35:02,761 [  95837]   INFO - il.indexing.FileBasedIndexImpl - Version has changed for index js.inheritance.index. The index will be rebuilt. 
+2013-07-10 22:35:02,778 [  95854]   INFO - il.indexing.FileBasedIndexImpl - Version has changed for index js.classNames.index. The index will be rebuilt. 
+2013-07-10 22:35:02,815 [  95891]   INFO - il.indexing.FileBasedIndexImpl - Version has changed for index js.index. The index will be rebuilt. 
+2013-07-10 22:35:02,835 [  95911]   INFO - il.indexing.FileBasedIndexImpl - Version has changed for index js.typedef.index. The index will be rebuilt. 
+2013-07-10 22:35:03,452 [  96528]   INFO - pl.stores.ApplicationStoreImpl - 71 application components initialized in 4895 ms 
+2013-07-10 22:35:03,458 [  96534]   INFO - .intellij.idea.IdeaApplication - App initialization took 98445 ms 
+2013-07-10 22:35:04,652 [  97728]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/code.style.schemes.xml file is null 
+2013-07-10 22:35:04,771 [  97847]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plainTextFiles.xml file is null 
+2013-07-10 22:35:13,107 [ 106183]   INFO - ellij.project.impl.ProjectImpl - 18 project components initialized in 391 ms 
+2013-07-10 22:35:13,107 [ 106183]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2013-07-10 22:35:21,891 [ 114967]   INFO - ions.SchemesManagerFactoryImpl - Cannot save settings for com.intellij.openapi.options.SchemesManagerImpl 
+com.intellij.openapi.vfs.InvalidVirtualFileAccessException: Accessing invalid virtual file: file:///home/ben/.WebStorm6/config/filetypes
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.c(PersistentFSImpl.java:348)
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.list(PersistentFSImpl.java:125)
+	at com.intellij.openapi.vfs.newvfs.persistent.RefreshWorker.scan(RefreshWorker.java:112)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.scan(RefreshSessionImpl.java:136)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.a(RefreshQueueImpl.java:101)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.execute(RefreshQueueImpl.java:54)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.launch(RefreshSessionImpl.java:107)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:56)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:42)
+	at com.intellij.openapi.vfs.newvfs.NewVirtualFile.refresh(NewVirtualFile.java:84)
+	at com.intellij.openapi.vfs.VirtualFile.refresh(VirtualFile.java:633)
+	at com.intellij.openapi.options.SchemesManagerImpl$7.run(SchemesManagerImpl.java:784)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.openapi.options.SchemesManagerImpl.h(SchemesManagerImpl.java:781)
+	at com.intellij.openapi.options.SchemesManagerImpl.save(SchemesManagerImpl.java:756)
+	at com.intellij.openapi.options.SchemesManagerFactoryImpl.save(SchemesManagerFactoryImpl.java:126)
+	at com.intellij.openapi.components.impl.stores.ComponentStoreImpl$SaveSessionImpl.save(ComponentStoreImpl.java:430)
+	at com.intellij.openapi.components.impl.stores.StoreUtil.doSave(StoreUtil.java:31)
+	at com.intellij.openapi.application.impl.ApplicationImpl._saveSettings(ApplicationImpl.java:1413)
+	at com.intellij.openapi.application.impl.ApplicationImpl.saveSettings(ApplicationImpl.java:1452)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:840)
+	at com.intellij.openapi.application.impl.ApplicationImpl.access$800(ApplicationImpl.java:85)
+	at com.intellij.openapi.application.impl.ApplicationImpl$11.run(ApplicationImpl.java:825)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:835)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:797)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:792)
+	at com.intellij.openapi.wm.impl.welcomeScreen.WelcomeFrame$2$1.run(WelcomeFrame.java:123)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:343)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:727)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.awt.EventQueue$3.run(EventQueue.java:686)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue.d(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:525)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2013-07-10 22:35:21,926 [ 115002]   INFO - ions.SchemesManagerFactoryImpl - Cannot save settings for com.intellij.openapi.options.SchemesManagerImpl 
+com.intellij.openapi.vfs.InvalidVirtualFileAccessException: Accessing invalid virtual file: file:///home/ben/.WebStorm6/config/keymaps
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.c(PersistentFSImpl.java:348)
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.list(PersistentFSImpl.java:125)
+	at com.intellij.openapi.vfs.newvfs.persistent.RefreshWorker.scan(RefreshWorker.java:112)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.scan(RefreshSessionImpl.java:136)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.a(RefreshQueueImpl.java:101)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.execute(RefreshQueueImpl.java:54)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.launch(RefreshSessionImpl.java:107)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:56)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:42)
+	at com.intellij.openapi.vfs.newvfs.NewVirtualFile.refresh(NewVirtualFile.java:84)
+	at com.intellij.openapi.vfs.VirtualFile.refresh(VirtualFile.java:633)
+	at com.intellij.openapi.options.SchemesManagerImpl$7.run(SchemesManagerImpl.java:784)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.openapi.options.SchemesManagerImpl.h(SchemesManagerImpl.java:781)
+	at com.intellij.openapi.options.SchemesManagerImpl.save(SchemesManagerImpl.java:756)
+	at com.intellij.openapi.options.SchemesManagerFactoryImpl.save(SchemesManagerFactoryImpl.java:126)
+	at com.intellij.openapi.components.impl.stores.ComponentStoreImpl$SaveSessionImpl.save(ComponentStoreImpl.java:430)
+	at com.intellij.openapi.components.impl.stores.StoreUtil.doSave(StoreUtil.java:31)
+	at com.intellij.openapi.application.impl.ApplicationImpl._saveSettings(ApplicationImpl.java:1413)
+	at com.intellij.openapi.application.impl.ApplicationImpl.saveSettings(ApplicationImpl.java:1452)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:840)
+	at com.intellij.openapi.application.impl.ApplicationImpl.access$800(ApplicationImpl.java:85)
+	at com.intellij.openapi.application.impl.ApplicationImpl$11.run(ApplicationImpl.java:825)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:835)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:797)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:792)
+	at com.intellij.openapi.wm.impl.welcomeScreen.WelcomeFrame$2$1.run(WelcomeFrame.java:123)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:343)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:727)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.awt.EventQueue$3.run(EventQueue.java:686)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue.d(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:525)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2013-07-10 22:35:21,935 [ 115011]   INFO - ions.SchemesManagerFactoryImpl - Cannot save settings for com.intellij.openapi.options.SchemesManagerImpl 
+com.intellij.openapi.vfs.InvalidVirtualFileAccessException: Accessing invalid virtual file: file:///home/ben/.WebStorm6/config/quicklists
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.c(PersistentFSImpl.java:348)
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.list(PersistentFSImpl.java:125)
+	at com.intellij.openapi.vfs.newvfs.persistent.RefreshWorker.scan(RefreshWorker.java:112)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.scan(RefreshSessionImpl.java:136)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.a(RefreshQueueImpl.java:101)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.execute(RefreshQueueImpl.java:54)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.launch(RefreshSessionImpl.java:107)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:56)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:42)
+	at com.intellij.openapi.vfs.newvfs.NewVirtualFile.refresh(NewVirtualFile.java:84)
+	at com.intellij.openapi.vfs.VirtualFile.refresh(VirtualFile.java:633)
+	at com.intellij.openapi.options.SchemesManagerImpl$7.run(SchemesManagerImpl.java:784)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.openapi.options.SchemesManagerImpl.h(SchemesManagerImpl.java:781)
+	at com.intellij.openapi.options.SchemesManagerImpl.save(SchemesManagerImpl.java:756)
+	at com.intellij.openapi.options.SchemesManagerFactoryImpl.save(SchemesManagerFactoryImpl.java:126)
+	at com.intellij.openapi.components.impl.stores.ComponentStoreImpl$SaveSessionImpl.save(ComponentStoreImpl.java:430)
+	at com.intellij.openapi.components.impl.stores.StoreUtil.doSave(StoreUtil.java:31)
+	at com.intellij.openapi.application.impl.ApplicationImpl._saveSettings(ApplicationImpl.java:1413)
+	at com.intellij.openapi.application.impl.ApplicationImpl.saveSettings(ApplicationImpl.java:1452)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:840)
+	at com.intellij.openapi.application.impl.ApplicationImpl.access$800(ApplicationImpl.java:85)
+	at com.intellij.openapi.application.impl.ApplicationImpl$11.run(ApplicationImpl.java:825)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:835)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:797)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:792)
+	at com.intellij.openapi.wm.impl.welcomeScreen.WelcomeFrame$2$1.run(WelcomeFrame.java:123)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:343)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:727)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.awt.EventQueue$3.run(EventQueue.java:686)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue.d(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:525)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2013-07-10 22:35:21,939 [ 115015]   INFO - ions.SchemesManagerFactoryImpl - Cannot save settings for com.intellij.openapi.options.SchemesManagerImpl 
+com.intellij.openapi.vfs.InvalidVirtualFileAccessException: Accessing invalid virtual file: file:///home/ben/.WebStorm6/config/tools
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.c(PersistentFSImpl.java:348)
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.list(PersistentFSImpl.java:125)
+	at com.intellij.openapi.vfs.newvfs.persistent.RefreshWorker.scan(RefreshWorker.java:112)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.scan(RefreshSessionImpl.java:136)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.a(RefreshQueueImpl.java:101)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.execute(RefreshQueueImpl.java:54)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.launch(RefreshSessionImpl.java:107)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:56)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:42)
+	at com.intellij.openapi.vfs.newvfs.NewVirtualFile.refresh(NewVirtualFile.java:84)
+	at com.intellij.openapi.vfs.VirtualFile.refresh(VirtualFile.java:633)
+	at com.intellij.openapi.options.SchemesManagerImpl$7.run(SchemesManagerImpl.java:784)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.openapi.options.SchemesManagerImpl.h(SchemesManagerImpl.java:781)
+	at com.intellij.openapi.options.SchemesManagerImpl.save(SchemesManagerImpl.java:756)
+	at com.intellij.openapi.options.SchemesManagerFactoryImpl.save(SchemesManagerFactoryImpl.java:126)
+	at com.intellij.openapi.components.impl.stores.ComponentStoreImpl$SaveSessionImpl.save(ComponentStoreImpl.java:430)
+	at com.intellij.openapi.components.impl.stores.StoreUtil.doSave(StoreUtil.java:31)
+	at com.intellij.openapi.application.impl.ApplicationImpl._saveSettings(ApplicationImpl.java:1413)
+	at com.intellij.openapi.application.impl.ApplicationImpl.saveSettings(ApplicationImpl.java:1452)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:840)
+	at com.intellij.openapi.application.impl.ApplicationImpl.access$800(ApplicationImpl.java:85)
+	at com.intellij.openapi.application.impl.ApplicationImpl$11.run(ApplicationImpl.java:825)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:835)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:797)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:792)
+	at com.intellij.openapi.wm.impl.welcomeScreen.WelcomeFrame$2$1.run(WelcomeFrame.java:123)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:343)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:727)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.awt.EventQueue$3.run(EventQueue.java:686)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue.d(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:525)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2013-07-10 22:35:21,951 [ 115027]   INFO - ions.SchemesManagerFactoryImpl - Cannot save settings for com.intellij.openapi.options.SchemesManagerImpl 
+com.intellij.openapi.vfs.InvalidVirtualFileAccessException: Accessing invalid virtual file: file:///home/ben/.WebStorm6/config/colors
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.c(PersistentFSImpl.java:348)
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.list(PersistentFSImpl.java:125)
+	at com.intellij.openapi.vfs.newvfs.persistent.RefreshWorker.scan(RefreshWorker.java:112)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.scan(RefreshSessionImpl.java:136)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.a(RefreshQueueImpl.java:101)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.execute(RefreshQueueImpl.java:54)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.launch(RefreshSessionImpl.java:107)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:56)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:42)
+	at com.intellij.openapi.vfs.newvfs.NewVirtualFile.refresh(NewVirtualFile.java:84)
+	at com.intellij.openapi.vfs.VirtualFile.refresh(VirtualFile.java:633)
+	at com.intellij.openapi.options.SchemesManagerImpl$7.run(SchemesManagerImpl.java:784)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.openapi.options.SchemesManagerImpl.h(SchemesManagerImpl.java:781)
+	at com.intellij.openapi.options.SchemesManagerImpl.save(SchemesManagerImpl.java:756)
+	at com.intellij.openapi.options.SchemesManagerFactoryImpl.save(SchemesManagerFactoryImpl.java:126)
+	at com.intellij.openapi.components.impl.stores.ComponentStoreImpl$SaveSessionImpl.save(ComponentStoreImpl.java:430)
+	at com.intellij.openapi.components.impl.stores.StoreUtil.doSave(StoreUtil.java:31)
+	at com.intellij.openapi.application.impl.ApplicationImpl._saveSettings(ApplicationImpl.java:1413)
+	at com.intellij.openapi.application.impl.ApplicationImpl.saveSettings(ApplicationImpl.java:1452)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:840)
+	at com.intellij.openapi.application.impl.ApplicationImpl.access$800(ApplicationImpl.java:85)
+	at com.intellij.openapi.application.impl.ApplicationImpl$11.run(ApplicationImpl.java:825)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:835)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:797)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:792)
+	at com.intellij.openapi.wm.impl.welcomeScreen.WelcomeFrame$2$1.run(WelcomeFrame.java:123)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:343)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:727)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.awt.EventQueue$3.run(EventQueue.java:686)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue.d(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:525)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2013-07-10 22:35:21,970 [ 115046]   INFO - ions.SchemesManagerFactoryImpl - Cannot save settings for com.intellij.openapi.options.SchemesManagerImpl 
+com.intellij.openapi.vfs.InvalidVirtualFileAccessException: Accessing invalid virtual file: file:///home/ben/.WebStorm6/config/codestyles
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.c(PersistentFSImpl.java:348)
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.list(PersistentFSImpl.java:125)
+	at com.intellij.openapi.vfs.newvfs.persistent.RefreshWorker.scan(RefreshWorker.java:112)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.scan(RefreshSessionImpl.java:136)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.a(RefreshQueueImpl.java:101)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.execute(RefreshQueueImpl.java:54)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.launch(RefreshSessionImpl.java:107)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:56)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:42)
+	at com.intellij.openapi.vfs.newvfs.NewVirtualFile.refresh(NewVirtualFile.java:84)
+	at com.intellij.openapi.vfs.VirtualFile.refresh(VirtualFile.java:633)
+	at com.intellij.openapi.options.SchemesManagerImpl$7.run(SchemesManagerImpl.java:784)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.openapi.options.SchemesManagerImpl.h(SchemesManagerImpl.java:781)
+	at com.intellij.openapi.options.SchemesManagerImpl.save(SchemesManagerImpl.java:756)
+	at com.intellij.openapi.options.SchemesManagerFactoryImpl.save(SchemesManagerFactoryImpl.java:126)
+	at com.intellij.openapi.components.impl.stores.ComponentStoreImpl$SaveSessionImpl.save(ComponentStoreImpl.java:430)
+	at com.intellij.openapi.components.impl.stores.StoreUtil.doSave(StoreUtil.java:31)
+	at com.intellij.openapi.application.impl.ApplicationImpl._saveSettings(ApplicationImpl.java:1413)
+	at com.intellij.openapi.application.impl.ApplicationImpl.saveSettings(ApplicationImpl.java:1452)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:840)
+	at com.intellij.openapi.application.impl.ApplicationImpl.access$800(ApplicationImpl.java:85)
+	at com.intellij.openapi.application.impl.ApplicationImpl$11.run(ApplicationImpl.java:825)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:835)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:797)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:792)
+	at com.intellij.openapi.wm.impl.welcomeScreen.WelcomeFrame$2$1.run(WelcomeFrame.java:123)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:343)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:727)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.awt.EventQueue$3.run(EventQueue.java:686)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue.d(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:525)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2013-07-10 22:35:21,976 [ 115052]   INFO - ions.SchemesManagerFactoryImpl - Cannot save settings for com.intellij.openapi.options.SchemesManagerImpl 
+com.intellij.openapi.vfs.InvalidVirtualFileAccessException: Accessing invalid virtual file: file:///home/ben/.WebStorm6/config/inspection
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.c(PersistentFSImpl.java:348)
+	at com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl.list(PersistentFSImpl.java:125)
+	at com.intellij.openapi.vfs.newvfs.persistent.RefreshWorker.scan(RefreshWorker.java:112)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.scan(RefreshSessionImpl.java:136)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.a(RefreshQueueImpl.java:101)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueueImpl.execute(RefreshQueueImpl.java:54)
+	at com.intellij.openapi.vfs.newvfs.RefreshSessionImpl.launch(RefreshSessionImpl.java:107)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:56)
+	at com.intellij.openapi.vfs.newvfs.RefreshQueue.refresh(RefreshQueue.java:42)
+	at com.intellij.openapi.vfs.newvfs.NewVirtualFile.refresh(NewVirtualFile.java:84)
+	at com.intellij.openapi.vfs.VirtualFile.refresh(VirtualFile.java:633)
+	at com.intellij.openapi.options.SchemesManagerImpl$7.run(SchemesManagerImpl.java:784)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1013)
+	at com.intellij.openapi.options.SchemesManagerImpl.h(SchemesManagerImpl.java:781)
+	at com.intellij.openapi.options.SchemesManagerImpl.save(SchemesManagerImpl.java:756)
+	at com.intellij.openapi.options.SchemesManagerFactoryImpl.save(SchemesManagerFactoryImpl.java:126)
+	at com.intellij.openapi.components.impl.stores.ComponentStoreImpl$SaveSessionImpl.save(ComponentStoreImpl.java:430)
+	at com.intellij.openapi.components.impl.stores.StoreUtil.doSave(StoreUtil.java:31)
+	at com.intellij.openapi.application.impl.ApplicationImpl._saveSettings(ApplicationImpl.java:1413)
+	at com.intellij.openapi.application.impl.ApplicationImpl.saveSettings(ApplicationImpl.java:1452)
+	at com.intellij.openapi.application.impl.ApplicationImpl.a(ApplicationImpl.java:840)
+	at com.intellij.openapi.application.impl.ApplicationImpl.access$800(ApplicationImpl.java:85)
+	at com.intellij.openapi.application.impl.ApplicationImpl$11.run(ApplicationImpl.java:825)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:835)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:797)
+	at com.intellij.openapi.application.impl.ApplicationImpl.exit(ApplicationImpl.java:792)
+	at com.intellij.openapi.wm.impl.welcomeScreen.WelcomeFrame$2$1.run(WelcomeFrame.java:123)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:343)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:727)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.awt.EventQueue$3.run(EventQueue.java:686)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:697)
+	at com.intellij.ide.IdeEventQueue.d(IdeEventQueue.java:700)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:525)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:348)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2013-07-10 22:35:22,100 [ 115176]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2013-07-10 22:35:22,125 [ 115201]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2013-07-10 22:35:22,125 [ 115201]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2013-07-10 22:35:22,126 [ 115202]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2013-07-10 22:35:22,128 [ 115204]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2013-07-10 22:35:22,131 [ 115207]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2013-07-10 22:35:22,183 [ 115259]   WARN - ution.process.OSProcessHandler - Cannot kill process tree. Trying to destroy process using Java API. Cmdline:
+null 
+2013-07-10 22:35:22,184 [ 115260]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2013-07-10 22:35:22,189 [ 115265]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2013-07-10 22:35:22,192 [ 115268]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated. 
+2013-07-10 22:35:22,196 [ 115272]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2013-07-12 10:12:28,958 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2013-07-12 10:12:28,976 [     18]   INFO -        #com.intellij.idea.Main - IDE: JetBrains WebStorm (build #WS-129.664, 05 Jun 2013 00:00) 
+2013-07-12 10:12:28,977 [     19]   INFO -        #com.intellij.idea.Main - OS: Linux (3.9.9-1-arch) 
+2013-07-12 10:12:28,977 [     19]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_21-b11 (Oracle Corporation) 
+2013-07-12 10:12:28,977 [     19]   INFO -        #com.intellij.idea.Main - JVM: 23.21-b01 (Oracle Corporation) 
+2013-07-12 10:12:28,984 [     26]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx512m -XX:MaxPermSize=250m -XX:ReservedCodeCacheSize=64m -XX:+UseCodeCacheFlushing -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djb.vmOptionsFile=/opt/webstorm/bin/webstorm.vmoptions -Xbootclasspath/a:/opt/webstorm/bin/../lib/boot.jar -Didea.paths.selector=WebStorm6 -Didea.platform.prefix=WebStorm -Didea.no.jre.check=true -Djb.restart.code=88 
+2013-07-12 10:12:29,029 [     71]   INFO -        #com.intellij.idea.Main - JNA library loaded (32-bit) in 44 ms 
+2013-07-12 10:12:29,303 [    345]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.4) in 274 ms 
+2013-07-12 10:12:29,603 [    645]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2013-07-12 10:12:31,885 [   2927]   INFO - llij.ide.plugins.PluginManager - 35 plugins initialized in 1945 ms 
+2013-07-12 10:12:31,888 [   2930]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (0.1), CSS Support, CVS Integration (11), CoffeeScript (2.0), Dart (129.664), File Watchers (129.664), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, Inspection-JS (2.0), IntelliLang (8.0), JSTestDriver Plugin (129.664), Jade (129.664), Java Server Pages Integration (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, LiveEdit (0.4.129.2), NodeJS (129.664), Perforce Integration (2.0), QuirksMode, REST Client, Refactor-X (2.01), Remote Hosts Access (0.1), SASS support, Subversion Integration (1.1), Task Management (1.0), W3C Validators (2.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML, hg4idea (10.0) 
+2013-07-12 10:12:33,116 [   4158]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=456261632 
+2013-07-12 10:12:33,202 [   4244]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /opt/webstorm/bin/fsnotifier 
+2013-07-12 10:12:33,226 [   4268]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2013-07-12 10:12:33,352 [   4394]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/path.macros.xml file is null 
+2013-07-12 10:12:34,028 [   5070]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2013-07-12 10:12:34,143 [   5185]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/notifications.xml file is null 
+2013-07-12 10:12:34,160 [   5202]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/statistics.application.usages.xml file is null 
+2013-07-12 10:12:34,797 [   5839]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2013-07-12 10:12:34,811 [   5853]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2013-07-12 10:12:36,435 [   7477]   INFO - pl.stores.ApplicationStoreImpl - 71 application components initialized in 4123 ms 
+2013-07-12 10:12:36,438 [   7480]   INFO - .intellij.idea.IdeaApplication - App initialization took 9027 ms 
+2013-07-12 10:12:49,430 [  20472]   INFO - ellij.project.impl.ProjectImpl - 18 project components initialized in 672 ms 
+2013-07-12 10:12:49,430 [  20472]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2013-07-12 10:12:50,439 [  21481]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plainTextFiles.xml file is null 
+2013-07-12 10:13:12,047 [  43089]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $WORKSPACE_FILE$ file is null 
+2013-07-12 10:13:12,065 [  43107]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/encodings.xml file is null 
+2013-07-12 10:13:12,084 [  43126]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/modules.xml file is null 
+2013-07-12 10:13:12,095 [  43137]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/vcs.xml file is null 
+2013-07-12 10:13:12,546 [  43588]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2013-07-12 10:13:12,703 [  43745]   INFO - ellij.project.impl.ProjectImpl - 111 project components initialized in 999 ms 
+2013-07-12 10:13:12,703 [  43745]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2013-07-12 10:13:12,731 [  43773]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $MODULE_FILE$ file is null 
+2013-07-12 10:13:12,866 [  43908]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2013-07-12 10:13:12,937 [  43979]   INFO - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2013-07-12 10:13:13,106 [  44148]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/encoding.xml file is null 
+2013-07-12 10:13:13,705 [  44747]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/webServers.xml file is null 
+2013-07-12 10:13:13,821 [  44863]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 79 ms, indexed 22 directories 
+2013-07-12 10:13:13,830 [  44872]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 2 ms 
+2013-07-12 10:13:14,380 [  45422]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix icon path=/artwork/webide12.png class=class com.intellij.ide.projectView.impl.ProjectViewToolWindowFactory 
+2013-07-12 10:13:14,394 [  45436]   INFO - jetbrains.ide.WebServerManager - web server started, port 63342 
+2013-07-12 10:13:15,097 [  46139]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/applicationLibraries.xml file is null 
+2013-07-12 10:13:15,114 [  46156]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 1212 ms 
+2013-07-12 10:13:15,114 [  46156]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 242 files to update 
+2013-07-12 10:13:16,338 [  47380]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2013-07-12 10:13:16,345 [  47387]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2013-07-12 10:13:18,280 [  49322]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6676 ms 
+2013-07-12 10:13:18,452 [  49494]   INFO - ction.BrowserConnectionManager - Browser connected: version 1.13, CHROME 
+2013-07-12 10:13:18,728 [  49770]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/webResources.xml file is null 
+2013-07-12 10:13:18,820 [  49862]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2013-07-12 10:13:31,653 [  62695]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/file.template.settings.xml file is null 
+2013-07-12 10:13:37,007 [  68049]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 21893 ms 
+2013-07-12 10:13:37,088 [  68130]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/feature.usage.statistics.xml file is null 
+2013-07-12 10:13:39,515 [  70557]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/jsLibraryMappings.xml file is null 
+2013-07-12 10:13:39,761 [  70803]   INFO -    #org.jetbrains.io.WebServer - web server stopped 
+2013-07-12 10:13:39,788 [  70830]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2013-07-12 10:13:40,071 [  71113]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2013-07-12 10:13:40,071 [  71113]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2013-07-12 10:13:40,072 [  71114]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2013-07-12 10:13:40,072 [  71114]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2013-07-12 10:13:40,078 [  71120]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2013-07-12 10:13:40,121 [  71163]   WARN - ution.process.OSProcessHandler - Cannot kill process tree. Trying to destroy process using Java API. Cmdline:
+null 
+2013-07-12 10:13:40,122 [  71164]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2013-07-12 10:13:40,145 [  71187]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2013-07-12 10:13:40,147 [  71189]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated. 
+2013-07-12 10:13:40,152 [  71194]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2013-07-12 10:15:22,559 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2013-07-12 10:15:22,575 [     16]   INFO -        #com.intellij.idea.Main - IDE: JetBrains WebStorm (build #WS-129.664, 05 Jun 2013 00:00) 
+2013-07-12 10:15:22,575 [     16]   INFO -        #com.intellij.idea.Main - OS: Linux (3.9.9-1-arch) 
+2013-07-12 10:15:22,575 [     16]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_21-b11 (Oracle Corporation) 
+2013-07-12 10:15:22,575 [     16]   INFO -        #com.intellij.idea.Main - JVM: 23.21-b01 (Oracle Corporation) 
+2013-07-12 10:15:22,579 [     20]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx512m -XX:MaxPermSize=250m -XX:ReservedCodeCacheSize=64m -XX:+UseCodeCacheFlushing -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djb.vmOptionsFile=/opt/webstorm/bin/webstorm.vmoptions -Xbootclasspath/a:/opt/webstorm/bin/../lib/boot.jar -Didea.paths.selector=WebStorm6 -Didea.platform.prefix=WebStorm -Didea.no.jre.check=true -Djb.restart.code=88 
+2013-07-12 10:15:22,630 [     71]   INFO -        #com.intellij.idea.Main - JNA library loaded (32-bit) in 49 ms 
+2013-07-12 10:15:22,980 [    421]   INFO -        #com.intellij.idea.Main - Snappy library loaded (1.0.4) in 349 ms 
+2013-07-12 10:15:23,255 [    696]   INFO - .intellij.idea.IdeaApplication - WM detected: KWin 
+2013-07-12 10:15:26,435 [   3876]   INFO - llij.ide.plugins.PluginManager - 35 plugins initialized in 2569 ms 
+2013-07-12 10:15:26,437 [   3878]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (0.1), CSS Support, CVS Integration (11), CoffeeScript (2.0), Dart (129.664), File Watchers (129.664), Git Integration (8.1), GitHub, HAML, HTML Tools (2.0), IDEA CORE, Inspection-JS (2.0), IntelliLang (8.0), JSTestDriver Plugin (129.664), Jade (129.664), Java Server Pages Integration (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), LESS support, LiveEdit (0.4.129.2), NodeJS (129.664), Perforce Integration (2.0), QuirksMode, REST Client, Refactor-X (2.01), Remote Hosts Access (0.1), SASS support, Subversion Integration (1.1), Task Management (1.0), W3C Validators (2.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML, hg4idea (10.0) 
+2013-07-12 10:15:28,809 [   6250]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=456261632 
+2013-07-12 10:15:28,894 [   6335]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /opt/webstorm/bin/fsnotifier 
+2013-07-12 10:15:28,932 [   6373]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2013-07-12 10:15:29,816 [   7257]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/ui.lnf.xml file is null 
+2013-07-12 10:15:31,091 [   8532]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/macros.xml file is null 
+2013-07-12 10:15:31,104 [   8545]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/quicklists.xml file is null 
+2013-07-12 10:15:32,583 [  10024]   INFO - pl.stores.ApplicationStoreImpl - 71 application components initialized in 5515 ms 
+2013-07-12 10:15:32,587 [  10028]   INFO - .intellij.idea.IdeaApplication - App initialization took 11575 ms 
+2013-07-12 10:15:32,637 [  10078]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/customization.xml file is null 
+2013-07-12 10:15:32,730 [  10171]   INFO - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2013-07-12 10:15:33,590 [  11031]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/applicationLibraries.xml file is null 
+2013-07-12 10:15:36,250 [  13691]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/vcs.xml file is null 
+2013-07-12 10:15:36,595 [  14036]   INFO - ellij.project.impl.ProjectImpl - 111 project components initialized in 2737 ms 
+2013-07-12 10:15:36,780 [  14221]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 185 ms 
+2013-07-12 10:15:37,761 [  15202]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/webServers.xml file is null 
+2013-07-12 10:15:37,895 [  15336]   INFO - .roots.impl.DirectoryIndexImpl - Directory index initialized in 28 ms, indexed 23 directories 
+2013-07-12 10:15:37,908 [  15349]   INFO - pl.PushedFilePropertiesUpdater - File properties pushed in 4 ms 
+2013-07-12 10:15:38,018 [  15459]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/plainTextFiles.xml file is null 
+2013-07-12 10:15:38,521 [  15962]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix icon path=/artwork/webide12.png class=class com.intellij.ide.projectView.impl.ProjectViewToolWindowFactory 
+2013-07-12 10:15:38,597 [  16038]   INFO - jetbrains.ide.WebServerManager - web server started, port 63342 
+2013-07-12 10:15:38,618 [  16059]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 609 ms 
+2013-07-12 10:15:38,618 [  16059]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2013-07-12 10:15:38,619 [  16060]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 1 ms 
+2013-07-12 10:15:40,054 [  17495]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2013-07-12 10:15:40,056 [  17497]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2013-07-12 10:15:40,334 [  17775]   INFO - ction.BrowserConnectionManager - Browser connected: version 1.13, CHROME 
+2013-07-12 10:15:41,348 [  18789]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 7681 ms 
+2013-07-12 10:15:41,648 [  19089]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/webResources.xml file is null 
+2013-07-12 10:15:41,684 [  19125]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2013-07-12 10:17:58,179 [ 155620]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/jsLibraryMappings.xml file is null 
+2013-07-12 10:17:58,570 [ 156011]   INFO -    #org.jetbrains.io.WebServer - web server stopped 
+2013-07-12 10:17:58,603 [ 156044]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2013-07-12 10:17:58,659 [ 156100]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2013-07-12 10:17:58,660 [ 156101]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2013-07-12 10:17:58,660 [ 156101]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2013-07-12 10:17:58,661 [ 156102]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2013-07-12 10:17:58,666 [ 156107]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2013-07-12 10:17:58,677 [ 156118]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated. 
+2013-07-12 10:17:58,756 [ 156197]   WARN - ution.process.OSProcessHandler - Cannot kill process tree. Trying to destroy process using Java API. Cmdline:
+null 
+2013-07-12 10:17:58,759 [ 156200]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2013-07-12 10:17:58,767 [ 156208]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2013-07-12 10:17:58,809 [ 156250]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
